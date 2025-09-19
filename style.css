@@ -1,0 +1,29 @@
+/*ideia de navbar para site de matemática*/
+.navbarContainer{
+  width:400px;
+  height: 70vh;
+  background-color: #ffcc80;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*ideia de galeria moderna para site de matemática*/
+.inf-grid-hero-container {
+  transform: rotateX(0deg)
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  &::after {
+    background: none;
+  }
+  &.top > div.selected {
+    top: 0;
+  }
+}
+  $
