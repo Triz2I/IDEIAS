@@ -26,4 +26,17 @@
     top: 0;
   }
 }
-  $
+
+.rating__star {
+  display:block;
+  overflow: visible;
+  pointer-events: none;
+  width: 2em;
+  height: 2em;
+}
+.rating__star-ring, .rating__star-fill,
+.rating__star-line, .raing__star-stroke {
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+}
